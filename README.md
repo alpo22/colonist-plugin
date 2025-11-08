@@ -1,8 +1,8 @@
 # colonist-plugin
-Remove ads from colonist.io
+This removes ads from colonist.io in one of two ways:
+- as a bookmarklet (so you have to click a bookmark each time you visit the site to remove the ads)
+- as a Chrome extension (so it removes them automatically)
 
-## Features
-- Removes in-game ad elements (.in_game_ab_right, .in_game_ab_left, .in_game_ab_bottom, .in_game_ab_bottom_small, #endgame-item-box)
 
 ## Installation Methods
 
@@ -20,9 +20,9 @@ javascript:(function(){const style=document.createElement('style');style.textCon
 
 ### Method 2: Chrome Extension (Auto-activates on every visit)
 
-1. Clone or download this repository
+1. Download this repository as a zip, and unzip it
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" in the top right corner
 4. Click "Load unpacked"
-5. Select the directory containing this extension
+5. Select the unzipped directory from step 1
 6. Navigate to colonist.io and enjoy an ad-free experience!
