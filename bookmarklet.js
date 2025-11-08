@@ -1,8 +1,8 @@
-// Bookmarklet code for colonist.io - Ad Remover & Fullscreen
+// Bookmarklet code for colonist.io - Ad Remover
 // To use: Create a bookmark with this code as the URL (prefixed with javascript:)
 
 javascript:(function(){
-  // Add CSS to hide ads and make canvas fullscreen
+  // Add CSS to hide ads
   const style = document.createElement('style');
   style.textContent = `
     .in_game_ab_right,
@@ -10,14 +10,6 @@ javascript:(function(){
     .in_game_ab_bottom,
     .in_game_ab_bottom_small {
       display: none !important;
-    }
-    canvas {
-      position: fixed !important;
-      top: 0 !important;
-      left: 0 !important;
-      width: 100vw !important;
-      height: 100vh !important;
-      z-index: 1000 !important;
     }
   `;
   document.head.appendChild(style);

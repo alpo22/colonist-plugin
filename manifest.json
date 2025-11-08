@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Colonist.io Ad Remover & Fullscreen",
+  "name": "Colonist.io Ad Remover",
   "version": "1.0",
-  "description": "Remove ads and make colonist.io fullscreen",
+  "description": "Remove ads from colonist.io",
   "content_scripts": [
     {
       "matches": ["*://*.colonist.io/*"],
