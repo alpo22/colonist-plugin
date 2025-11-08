@@ -4,7 +4,8 @@ function removeAdElements() {
     '.in_game_ab_right',
     '.in_game_ab_left',
     '.in_game_ab_bottom',
-    '.in_game_ab_bottom_small'
+    '.in_game_ab_bottom_small',
+    '#endgame-item-box'
   ];
 
   adSelectors.forEach(selector => {

@@ -8,7 +8,8 @@ javascript:(function(){
     .in_game_ab_right,
     .in_game_ab_left,
     .in_game_ab_bottom,
-    .in_game_ab_bottom_small {
+    .in_game_ab_bottom_small,
+    #endgame-item-box {
       display: none !important;
     }
   `;
@@ -16,7 +17,7 @@ javascript:(function(){
   
   // Remove ad elements from DOM
   function removeAds() {
-    const selectors = ['.in_game_ab_right', '.in_game_ab_left', '.in_game_ab_bottom', '.in_game_ab_bottom_small'];
+    const selectors = ['.in_game_ab_right', '.in_game_ab_left', '.in_game_ab_bottom', '.in_game_ab_bottom_small', '#endgame-item-box'];
     selectors.forEach(sel => {
       document.querySelectorAll(sel).forEach(el => el.remove());
     });
